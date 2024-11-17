@@ -2,7 +2,7 @@ import {
   bottomNavItem,
   navItems,
   topNavItem,
-} from '@/widgets/Lnb/constants/navItems';
+} from '@widgets/Lnb/constants/navItems';
 
 import LnbItem from './LnbItem';
 

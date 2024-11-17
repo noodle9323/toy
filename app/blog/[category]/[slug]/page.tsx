@@ -1,4 +1,4 @@
-import { BlogPage } from '@/src/pages/blog-page';
+import { BlogPage } from '@/pages/blog-page';
 
 interface Params {
   slug: string;

@@ -29,7 +29,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <h1 className="text-white text-4xl font-bold">테일윈드 테스트??</h1>
         {children}
       </body>
     </html>

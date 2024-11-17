@@ -2,7 +2,7 @@
 
 import { Database } from '@shared/types/database.types';
 import { SupabaseClient } from '@supabase/supabase-js';
-import { createSupabaseBrowserClient } from '@shared/api/supabase';
+import { createSupabaseBrowserClient } from '@/src/shared/api/client/supabase';
 
 type PostsDto = Database['public']['Tables']['post_no_rls']['Row'];
 

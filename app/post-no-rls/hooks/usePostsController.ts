@@ -49,7 +49,9 @@ const usePostsController = () => {
   };
 
   const onSearchPosts = async (terms: string) => {
-    if (!terms) await onGetPosts();
+    if (!terms) {
+      await onGetPosts();
+    }
 
     const postResult = await getPostsBySearch(terms);
     console.error('postResult', postResult);

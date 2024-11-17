@@ -1,7 +1,7 @@
-import { IconButton } from '@/shared/ui/IconButton';
+import { cn } from '@shared/lib/utils';
+import { IconButton } from '@shared/ui/IconButton';
+import { LnbItemProps } from '@widgets/Lnb/types';
 import Link from 'next/link';
-import { LnbItemProps } from '@/widgets/Lnb/types';
-import { cn } from '@/shared/lib/utils';
 
 const LnbItem = ({
   href,
