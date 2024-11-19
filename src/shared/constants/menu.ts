@@ -1,4 +1,4 @@
 export const MENU = {
   THREADS: '스레드',
-  ARTICLES: '아티클',
+  DASHBOARD: '대시보드',
 };

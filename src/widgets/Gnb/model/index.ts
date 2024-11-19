@@ -1,5 +1,5 @@
-import { MENU } from '@/shared/constants/menu';
-import { PATHS } from '@/shared/constants/path';
+import { MENU } from '@shared/constants/menu';
+import { PATHS } from '@shared/constants/path';
 
 interface NavgationMenu {
   name: string;
@@ -7,6 +7,6 @@ interface NavgationMenu {
 }
 
 export const NAVIGATION_MENUS: NavgationMenu[] = [
-  { name: MENU.THREADS, path: 'THREADS' },
-  { name: MENU.ARTICLES, path: 'ARTICLES' },
+  { name: MENU.THREADS, path: 'ROOT' },
+  { name: MENU.DASHBOARD, path: 'DASHBOARD' },
 ];

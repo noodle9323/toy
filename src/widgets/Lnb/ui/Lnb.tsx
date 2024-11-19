@@ -2,13 +2,13 @@ import {
   bottomNavItem,
   navItems,
   topNavItem,
-} from '@widgets/Lnb/constants/navItems';
+} from '@/src/widgets/lnb/constants/navItems';
 
 import LnbItem from './LnbItem';
 
 export const Lnb = () => {
   return (
-    <nav aria-label="메인 네비게이션" className="fixed left-0 top-0">
+    <nav aria-label="메인 네비게이션">
       <div className="flex flex-col items-center p-2 min-h-screen border-r border-r-zinc-200 transition-all duration-300 ease-in-out min-w-[var(--nav-narrow-width)] md:min-w-[var(--nav-wide-width)]">
         <div className="flex-grow-0 w-full">
           <LnbItem {...topNavItem} />

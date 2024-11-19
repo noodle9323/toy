@@ -4,11 +4,11 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   navigationMenuTriggerStyle,
-} from '@/shared/ui/NavigationMenu';
+} from '@shared/ui/NavigationMenu';
 
 import Link from 'next/link';
 import { NAVIGATION_MENUS } from '../model';
-import { PATHS } from '@/shared/constants/path';
+import { PATHS } from '@shared/constants/path';
 
 const GnbNavigationMenu = () => {
   return (
@@ -16,7 +16,7 @@ const GnbNavigationMenu = () => {
       <NavigationMenuList>
         {NAVIGATION_MENUS.map((menu) => (
           <NavigationMenuItem key={menu.name}>
-            <Link href={PATHS[menu.path] as string}>
+            <Link href={String(PATHS[menu.path as keyof typeof PATHS])}>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 {menu.name}
               </NavigationMenuLink>

@@ -22,6 +22,6 @@ export async function GET(request: NextRequest) {
  * 콜백 라우트는 OAuth 인증 흐름에서 중요한 부분이다.
  *
  * 1. 인증 흐름의 완성
- * 2.보안 토큰 교환
+ * 2. 보안 토큰 교환
  * 3. 사용자 경험 관리
  */

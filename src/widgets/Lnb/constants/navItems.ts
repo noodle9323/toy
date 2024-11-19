@@ -1,6 +1,6 @@
 import { FileText, Home, Search, Settings } from 'lucide-react';
 
-import { NavItem } from '@widgets/Lnb/types';
+import { NavItem } from '@/src/widgets/lnb/types';
 import { PATHS } from '@shared/constants/path';
 
 export const topNavItem: NavItem = {

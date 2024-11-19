@@ -1,6 +1,6 @@
 import { cn } from '@shared/lib/utils';
 import { IconButton } from '@shared/ui/IconButton';
-import { LnbItemProps } from '@widgets/Lnb/types';
+import { LnbItemProps } from '@/src/widgets/lnb/types';
 import Link from 'next/link';
 
 const LnbItem = ({

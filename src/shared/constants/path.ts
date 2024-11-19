@@ -3,6 +3,7 @@ export const PATHS = {
   LOGIN: '/login',
   SIGN_UP: '/sign-up',
   ARTICLES: '/articles',
+  DASHBOARD: '/dashboard',
   SEARCH: '/search',
   SETTINGS: '/settings',
   ARTICLE_DETAIL: (articleId: number) => `${PATHS.ARTICLES}/${articleId}`,
