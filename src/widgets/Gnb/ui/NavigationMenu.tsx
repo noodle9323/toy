@@ -16,11 +16,14 @@ const GnbNavigationMenu = () => {
       <NavigationMenuList>
         {NAVIGATION_MENUS.map((menu) => (
           <NavigationMenuItem key={menu.name}>
-            <Link href={String(PATHS[menu.path as keyof typeof PATHS])}>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <NavigationMenuLink asChild>
+              <Link
+                href={String(PATHS[menu.path as keyof typeof PATHS])}
+                className={navigationMenuTriggerStyle()}
+              >
                 {menu.name}
-              </NavigationMenuLink>
-            </Link>
+              </Link>
+            </NavigationMenuLink>
           </NavigationMenuItem>
         ))}
       </NavigationMenuList>

@@ -4,7 +4,7 @@ import {
   getPosts,
   getPostsBySearch,
   updatePosts,
-} from '@shared/api/client/post-no-rls';
+} from '@/src/entities/post/api/post.api';
 import { useEffect, useState } from 'react';
 
 import { Database } from '@shared/types/database.types';
